@@ -12,17 +12,40 @@
 <body>
     <div class="container">
         <header>
-            <div class="profile-section">
-                <img src="ramraj.png" alt="Profile" class="profile-image">
-                <p class="designer-credit">Designed By Mr. Ramraj Rajbanshi</p>
+            <div class="header-background">
+                <div class="floating-shapes">
+                    <div class="shape shape-1"></div>
+                    <div class="shape shape-2"></div>
+                    <div class="shape shape-3"></div>
+                </div>
             </div>
-            <h1>📚 Question Bank - XII</h1>
-            <p class="subtitle">Access and download all question papers easily</p>
+            <div class="header-content">
+                <div class="profile-section">
+                    <div class="profile-wrapper">
+                        <div class="profile-glow"></div>
+                        <img src="ramraj.png" alt="Profile" class="profile-image">
+                    </div>
+                    <div class="designer-badge">
+                        <span class="badge-icon">✨</span>
+                        <p class="designer-credit">Designed By Mr. Ramraj Rajbanshi</p>
+                    </div>
+                </div>
+                <div class="title-section">
+                    <div class="title-icon">📚</div>
+                    <h1 class="main-title">
+                        <span class="title-text">Question Bank</span>
+                        <span class="title-accent">XII</span>
+                    </h1>
+                    <div class="title-underline"></div>
+                    <p class="subtitle">Access and download all question papers easily</p>
+                </div>
+            </div>
         </header>
 
         <div class="search-bar">
             <input type="text" id="searchInput" placeholder="Search subjects or files...">
             <span class="search-icon">🔍</span>
+            <button class="clear-search" id="clearSearch" style="display: none;" title="Clear search">✕</button>
         </div>
 
         <div class="stats">
